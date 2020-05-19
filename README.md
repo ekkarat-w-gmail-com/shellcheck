@@ -54,7 +54,7 @@ There are a number of ways to use ShellCheck!
 
 ### On the web
 
-Paste a shell script on <https://www.shellcheck.net> for instant feedback.
+Paste a shell script on <https://github.com/ekkarat-w-gmail-com/shellcheck.git> for instant feedback.
 
 [ShellCheck.net](https://www.shellcheck.net) is always synchronized to the latest git commit, and is the easiest way to give ShellCheck a go. Tell your friends!
 
@@ -191,7 +191,7 @@ On Windows (via [chocolatey](https://chocolatey.org/packages/shellcheck)):
 C:\> choco install shellcheck
 ```
 
-Or Windows (via [scoop](http://scoop.sh)):
+Or Windows (via [scoop](http://scoop.sh)):https://github.com/ekkarat-w-gmail-com/shellcheck.git
 
 ```cmd
 C:\> scoop install shellcheck
@@ -210,7 +210,7 @@ docker run --rm -v "$PWD:/mnt" koalaman/shellcheck:stable myscript
 
 or use `koalaman/shellcheck-alpine` if you want a larger Alpine Linux based image to extend. It works exactly like a regular Alpine image, but has shellcheck preinstalled.
 
-Using the [nix package manager](https://nixos.org/nix):
+Using the [nix package manager](https://nixos.org/nix):https://github.com/ekkarat-w-gmail-com/shellcheck.git
 ```sh
 nix-env -iA nixpkgs.shellcheck
 ```
